@@ -1929,8 +1929,7 @@
                         "order_recv_state",
                         "order_recv_zipcode",
                         "order_recv_phone",
-                        "order_recv_email",
-                        "assign"
+                        "order_recv_email"
                       ],
                       "isVisibleDownload": true,
                       "dynamicPropertyPathList": [],
@@ -1976,9 +1975,6 @@
                         },
                         {
                           "key": "primaryColumns.order_recv_email.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.assign.computedValue"
                         }
                       ],
                       "leftColumn": 1,
@@ -2135,23 +2131,6 @@
                           "isDerived": false,
                           "label": "order_recv_email",
                           "computedValue": "{{Table4.sanitizedTableData.map((currentRow) => ( currentRow.order_recv_email))}}"
-                        },
-                        "assign": {
-                          "index": 9,
-                          "width": 150,
-                          "id": "assign",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textSize": "PARAGRAPH",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "assign",
-                          "computedValue": "{{Table4.sanitizedTableData.map((currentRow) => ( currentRow.assign))}}"
                         }
                       },
                       "delimiter": ",",

@@ -2,8 +2,8 @@
   "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 3,
-  "publishedDefaultPageName": "Inventory Search",
-  "unpublishedDefaultPageName": "Inventory Search",
+  "publishedDefaultPageName": "Create Order Schlesinger",
+  "unpublishedDefaultPageName": "Create Order Schlesinger",
   "invisibleActionFields": {
     "Create Order Schlesinger_Query1": {
       "unpublishedUserSetOnLoad": false,
