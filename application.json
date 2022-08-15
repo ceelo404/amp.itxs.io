@@ -1,11 +1,37 @@
 {
+  "pages": [
+    {
+      "id": "Create Order Schlesinger",
+      "isDefault": true
+    },
+    {
+      "id": "Inventory Search",
+      "isDefault": false
+    },
+    {
+      "id": "Order Search",
+      "isDefault": false
+    },
+    {
+      "id": "Amp Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Create Order Schlesinger v2",
+      "isDefault": false
+    }
+  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
@@ -13,9 +39,5 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
-  "createdAt": {
-    "seconds": 1650251056,
-    "nanos": 31000000
-  },
   "deleted": false
 }
